@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Sigmar+One&display=swap');
+
+
+h1,
+h3 {
+    text-align: center;
+}
+
+
+.menu {
+    width: 100%;
+    display: table;
+    margin: auto;
+}
+
+.menu ul {
+    display: table-row;
+}
+
+.menu li {
+    display: table-cell;
+    background: #2767A0;
+}
+
+.menu ul li:hover,
+.menu a:hover {
+    background: #666;
+}
+
+.menu li a {
+    display: block;
+    padding: 8px 15px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.aboutSi {
+    display: table-cell;
+}
+
+img {
+    float: left;
+    padding-top: 50px;
+    width: 40%;
+    height: 400px;
+    padding-right: 40px;
+}
+
+p {
+    padding-top: 50px;
+    font-family: 'Arial';
+    font-size: 24px;
+}
+
+tr {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+}
+
+.table2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process ol {
+    list-style-position: inside;
+    /* Start counter */
+    counter-reset: list;
+}
+
+.process ol li {
+    font-family: 'Raleway', sans-serif;
+    /* Increment counter on each list item */
+    counter-increment: list;
+}
+
+.process ol li::marker {
+    font-family: "Sigmar One", cursive;
+    /* Use counter to display the current number */
+    content: "Step " counter(list) ". ";
+}
+
+
+
+.l1 {
+    list-style-type: "😁";
+}
+
+.l2 {
+    list-style-type: "😎";
+}
+
+
+
+.l3 {
+    list-style-type: "🤓";
+}
+
+.l4 {
+    list-style-type: "😱";
+}
+
+.l5 {
+    list-style-type: "😐";
+}
+
+.l6 {
+    list-style-type: "🤢";
+}
+
+.l7 {
+    list-style-type: "🤑";
+}
+
+.footer {
+    margin: 0;
+    height: 200px;
+    width: 100%;
+}
+
+.footer ul {
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
